@@ -17,7 +17,7 @@ namespace ServiceStack.OrmLite.PostgreSQL
 			base.IntColumnDefinition = "integer";
 			base.BoolColumnDefinition = "boolean";
 			base.TimeColumnDefinition = "time";
-			base.DateTimeColumnDefinition = "timestamp";
+			base.DateTimeColumnDefinition = "timestamptz";
 			base.DecimalColumnDefinition = "numeric(38,6)";
 			base.GuidColumnDefinition = "uuid";
 			base.ParamString = ":";
